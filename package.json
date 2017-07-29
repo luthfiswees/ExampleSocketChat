@@ -1,0 +1,24 @@
+{
+  "name": "examplesocketchat",
+  "version": "1.0.0",
+  "description": "example socket chat with socket io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "chat"
+  ],
+  "author": "Luthfi Kurnia Putra",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "express-socket.io-session": "^1.3.2",
+    "mongoose": "^4.11.4",
+    "socket.io": "^2.0.3",
+    "socket.io-session-middleware": "^0.1.0"
+  }
+}
